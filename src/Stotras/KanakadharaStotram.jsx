@@ -7,11 +7,11 @@ const KanakadharaStotram = () => {
         
            <h1> కనకధారా స్తోత్రం</h1>
 
-
+{/* 
            <audio controls>
         <source src='/Kanakadhara_Stotram.mp3' type="audio/mpeg" />
         Your browser does not support the audio element.
-      </audio>
+      </audio> */}
 
 <p>
   వందే వందారు మందారమిందిరానందకందలమ్ । <br />

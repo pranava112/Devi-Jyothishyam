@@ -8,10 +8,10 @@ const HanumanChalisa = () => {
             <h1>హనుమాన్ చాలీసా</h1>
 
 
-           <audio controls>
+           {/* <audio controls>
         <source src='/Shri Hanuman Chalisa.mp3' type="audio/mpeg" />
         Your browser does not support the audio element.
-      </audio>
+      </audio> */}
 
 
      
