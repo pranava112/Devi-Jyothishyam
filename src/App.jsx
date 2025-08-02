@@ -1,11 +1,11 @@
 import React from "react";
 import { RouterProvider } from "react-router-dom";
-import { routing } from "./RoutingProvider/Routing";
+import { RoutingSource } from "./RoutingProvider/RoutingSource";
 
 const App = () => {
   return (
   <>
-   <RouterProvider router={routing} />;
+   <RouterProvider router={RoutingSource} />;
   </>
  );
 };

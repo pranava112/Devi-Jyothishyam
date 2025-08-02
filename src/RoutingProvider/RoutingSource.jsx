@@ -5,14 +5,14 @@ import Home from "../logs/Home";
 import KanakadharaStotram from "../Stotras/KanakadharaStotram";
 import Layout from "../logs/Layout";
 import Map from "../logs/Map";
-import PlanetaryPositions from "../RoutingProvider/PlanetaryPositions";
+import PlanetaryPositions from "./PlanetaryPositions";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import UserDashBoard from "../logs/UserDashBoard";
 import VishnusahasranamaStotram from "../Stotras/VishnusahasranamaStotram";
 import { createBrowserRouter } from "react-router-dom";
 
-export const routing = createBrowserRouter([
+export const RoutingSource = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
