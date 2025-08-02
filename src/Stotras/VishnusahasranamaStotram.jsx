@@ -11,7 +11,7 @@ const VishnusahasranamaStotram = () => {
 
 
            <audio controls>
-        <source src='/public/Vishnu Sahasranamam.mp3' type="audio/mpeg" />
+        <source src='/public/vishnu-sahasranamam.mp3' type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
 
