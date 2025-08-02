@@ -1,19 +1,47 @@
 import React from 'react'
 
 const VishnusahasranamaStotram = () => {
+
+   const youtubeSrc = "https://www.youtube.com/embed/ATflA6WOy0I";
+
+  
   return (
     <>
-    {/* https://vignanam.org/telugu/sree-vishnu-sahasra-nama-stotram.html */}
-
-     <div className="stotram-container">
+   
+    <div className="stotram-container">
         
-           <h1>  శ్రీ విష్ణు సహస్ర నామ స్తోత్రం </h1>
+            {/* <h1>  శ్రీ విష్ణు సహస్ర నామ స్తోత్రం </h1> */}
 
 
-           <audio controls>
-        <source src='/public/vishnu-sahasranamam.mp3' type="audio/mpeg" />
+           <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}>
+        శ్రీ విష్ణు సహస్ర నామ స్తోత్రం
+      </h1>
+
+      <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, marginBottom: '2rem' }}>
+        <iframe
+          src={youtubeSrc}
+          title="Vishnu Sahasranamam by M.S. Subbulakshmi"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+          }}
+        />
+      </div>
+
+
+
+           {/* <audio controls>
+        <source src={audioUrl} type="audio/mpeg" />
         Your browser does not support the audio element.
-      </audio>
+      </audio> */}
+
+      
 
 <br /><br />       
 
